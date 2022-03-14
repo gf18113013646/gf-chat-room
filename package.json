@@ -1,0 +1,29 @@
+{
+  "name": "chant-room",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack --config build/base.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gf18113013646/gf-chat-room.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gf18113013646/gf-chat-room/issues"
+  },
+  "homepage": "https://github.com/gf18113013646/gf-chat-room#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  }
+}

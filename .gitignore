@@ -1,0 +1,13 @@
+
+
+#dependencies
+/node_modules
+
+# production
+/dist
+
+# visual studio code
+.history
+*.log
+functions/*
+.temp/**
